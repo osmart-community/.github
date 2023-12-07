@@ -1,5 +1,5 @@
 # Welcome to the OSMART Community 👋
-Raise an issue and give us your contact (GitHub handle) if you wish to be added to the Team.
+Raise an [issue](https://github.com/osmart-community/.github/issues) and give us your contact (GitHub handle) if you wish to be added to the Team.
 ## Contents
 - [CTA WAVE](https://github.com/osmart-community#cta-wave)
 - [DASH-IF](https://github.com/osmart-community#dash-if)
