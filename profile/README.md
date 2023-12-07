@@ -5,7 +5,7 @@
 #### SUMMARY
 JCCP has developed a conformance tool to validate DASH content against different guidelines and profiles. There are specs, implementers and users and this tool allows e.g. vendors to check MPD, they provide test vectors to validate players…
 Worth highlighting a big effort in additional details, documentation to make the project more understandable and usable.
-#### KEY POINTS
+#### SCOPE
 Conformance, Test Vectors to test DASH Players
 #### WHO IS USING
 DASH-IF, DVB, HbbTV,CMAF, CTA-WAVE
@@ -16,7 +16,7 @@ https://conformance.dashif.org/
 ### DASH-IF livesim2
 #### SUMMARY
 Livesim is a reference tool and testbed for live DASH timing testing. It allows creating live streams coming from VoD assets. In particular, livesim2 is a complete rewrite of livesim which also makes it easier to deploy locally and in the cloud. Worth highlighting possibility to generate streams with particular features, refragmentation to generate low-latency DASH, also an interactive UI which makes configuration easy
-#### KEY POINTS
+#### SCOPE
 Live Test Vectors to test timing aspects but also as a source of live streams
 #### WHO IS USING
 DASH-IF
@@ -27,7 +27,7 @@ Live at https://livesim2.dashif.org (limited to 10000 requests/24h/IP)
 ### Dash.js
 #### SUMMARY
 dash.js is the official open source DASH Reference Player. It is used as a reference client for standardization and can also be used as the foundation for production grade video applications and research purposes. The player supports a wide set of features (ABR, DRM, CMCD, CMSD, Content Steering,…)
-#### KEY POINTS
+#### SCOPE
 Reference implementation, available for testing and also commercial products
 #### WHO IS USING
 DASH-IF, DVB, HbbTV, CTA-WAVE, 5G-MAG
@@ -38,7 +38,7 @@ https://github.com/Dash-Industry-Forum/dash.js/
 ### Open Caching
 #### SUMMARY
 Open Caching aims at creating a single control plane for multi CDNs (centralized control plane for open caching nodes), a testbed initiative for interoperability between independent implementations has been created. For the moment available to SVTA members
-#### KEY POINTS
+#### SCOPE
 Conformance and Interoperability
 #### WHO IS USING
 SVTA members
@@ -48,7 +48,7 @@ Internal
 ## Common Media Player library
 ### SUMMARY
 Library for media playback with a series of modules implementing features that can be imported as needed. Reduce duplicate code for different players and have a central place for reference implementations of standards-based features that end up in different players.
-### KEY POINTS
+### SCOPE
 Reference implementations (CMCD, CMSD, ID23 parsing, Common Media Request/Response interfaces)
 ### WHO IS USING
 SVTA, part of hls-js, dash.js, video,js
@@ -62,7 +62,7 @@ Docs: https://streaming-video-technology-alliance.github.io/common-media-library
 #### SUMMARY
 DVB-I tools implementing several specifications (Service Discovery and Metadatam DVB MPEG-DASH Profile, implementation guidelines). Backend to generate and edit DVB-I service lists ; DVB-I app frontend  with service list navigation, selection of services, banner, EPG,…
 DVB CSR implementation to support testing feasibility and features of a CSR
-#### KEY POINTS
+#### SCOPE
 Reference implementations
 #### WHO IS USING
 DVB, HbbTV
@@ -75,7 +75,7 @@ DVB-I Reference Client: https://github.com/DVBproject/DVB-I-Reference-Client
 Bob Campbell / Resillion / HbbTV Improving Interoperability Task Force Chair 
 #### SUMMARY
 DASH-DRM Reference Application allows to showcase HbbTV technology together with MPEG-DASH and DRM.  It includes a complete workflow with MPEG-DASH content generation tools. Includes an HbbTV client application with a video catalogue and a video player.
-#### KEY POINTS
+#### SCOPE
 Reference implementations and Test Vectors
 #### WHO IS USING
 DVB, HbbTV
@@ -88,7 +88,7 @@ https://www.hbbtv.org/resource-library/#developer-support
 ### Media Streaming Test Suite
 #### SUMMARY
 CTA WAVE Streaming Media Test Suite - Devices, check the hardware capability of playback on devices split into mezzanine content, test content generation encoding different variations and profiles, test runner for different devices and an observation framework for testing
-#### KEY POINTS
+#### SCOPE
 Test Vectors and Test suite
 #### WHO IS USING
 CTA WAVE, HbbTV
@@ -102,7 +102,7 @@ https://github.com/cta-wave/device-observation-framework
 ### MPEG Systems File Format Conformance Framework
 #### SUMMARY
 MPEG File Format Conformance Framework. Aim is to elevate the quality of standards developed by MPEG, indentify issues early enough. MPEG has adopted that all incoming technologies need to be supported by confromance files together with metadata,… Files available can be searched in a board that allows developers to filter and find what they need.
-#### KEY POINTS
+#### SCOPE
 Conformance Tools
 #### WHO IS USING
 MPEG
@@ -114,7 +114,7 @@ https://mpeggroup.github.io/FileFormatConformance/
 ### Reference Tools for 5G Media Streaming
 #### SUMMARY
 Reference Implementation of 5G Media Streaming components. Key features include content hosting, networks assistance (thoughput estimation, delivery boost,...) dynamic QoS policy, QoE metrics reporting, Consumption reporting.Implementation consist of 5GMS Application Server (wrapping OpenResty (Nginx)), 5GMS Application Function (built in the Open5GS framework), 5G Media Streaming Client (Android, Exoplayer,...).
-#### KEY POINTS
+#### SCOPE
 Reference implementation
 #### WHO IS USING
 5G-MAG
@@ -126,7 +126,7 @@ https://github.com/5G-MAG/Getting-Started/wiki/5G-Core-Network
 ### Reference Tools for 5G Broadcast
 #### SUMMARY
 Reference Implementation of 5G Broadcast components. Key features include: Rel-16 numerologies, receive-only mode, improved signaling performnance, Rel-17 6/7/8 MHz bandwidths. End-to-end chain with ffmpeg as streamer, FLUTE library, mbms-gw, transmitters, SDR based middleware and modem and Android based middleware and simple application.
-#### KEY POINTS
+#### SCOPE
 Reference implementation
 #### WHO IS USING
 5G-MAG
@@ -138,7 +138,7 @@ https://github.com/5G-MAG/Getting-Started/wiki/MBMS-&-LTE-based-5G-Broadcast
 ### Reference Tools for 3D and XR over 5G
 #### SUMMARY
 Immersive streaming experiences for entertainment,gaming,... test capabilities of 5G communication systems starting with 3D scenes for XR and different components that need to be delivered, streamed, etc. Real-time communication between participants, avatars, in AR environments. Projects on content playback (XR Player, XR Web Player based n Unity and Unreal Engine 5), content creation (Blender with support for glTF)
-#### KEY POINTS
+#### SCOPE
 Reference implementation
 #### WHO IS USING
 5G-MAG, MPEG
