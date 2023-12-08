@@ -70,8 +70,7 @@ DASH-IF, DVB, HbbTV, CTA-WAVE, 5G-MAG
 ### DVB-I Reference Application
 #### SUMMARY
 DVB-I tools implementing several specifications (Service Discovery and Metadata, DVB MPEG-DASH Profile, implementation guidelines). 
-DVB-I Backend for generating and editing DVB-I service lists and instances ; DVB-I app frontend with service list navigation, selection of services, banner, EPG, version for Android Mobile and HbbTV
-DVB CSR skeleton implementation to support testing feasibility and features of a CSR
+DVB-I Backend for generating and editing DVB-I service lists and instances ; DVB-I app frontend with service list navigation, selection of services, banner, EPG – client available as HbbTV OpApp implementation or PWA application for Android devices; DVB CSR skeleton implementation to support testing feasibility and features of a CSR
 #### SCOPE
 RS - Reference implementation, V&V
 #### WHO IS USING
