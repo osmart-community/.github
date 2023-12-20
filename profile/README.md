@@ -129,7 +129,7 @@ RS/TV - Reference implementations and Test Vectors, device coverage tests
 DVB, HbbTV
 #### WHERE TO FIND
 - https://refapp.hbbtv.org/ 
-- https://github.com/HbbTV-Association/ReferenceApplication
+- https://github.com/HbbTV-Association/ReferenceApplication (with possibility to reference 3rd party streams - check https://github.com/HbbTV-Association/ReferenceApplication/blob/master/doc/3rdpartycontent.md)
 - https://www.hbbtv.org/resource-library/#developer-support 
 - Test material: https://refapp.hbbtv.org/videos
 
