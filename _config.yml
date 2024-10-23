@@ -18,21 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 5G-MAG - Standards & Specifications
+title: OSMART - Open-Source Media Applications Reference Tools
 email: daniel.silhavy@fokus.fraunhofer.de
 description: >- # this means to ignore newlines until "baseurl:"
-  5G-MAG
+  OSMART
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsilhavy
 github_username:  dsilhavy
-logo: "/assets/images/5g-mag-logo-with-text.png"
+logo: "/assets/images/osmart.png"
 
 aux_links:
-  "5G-MAG on GitHub":
-    - "//github.com/5G-MAG/"
-  "5G-MAG Website":
-    - "https://www.5g-mag.com"
+  "GitHub":
+    - "//github.com/osmart-community/"
 
 # Build settings
 theme: just-the-docs
@@ -64,7 +62,7 @@ callouts:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 5G-MAG MEDIA ACTION GROUP"
+footer_content: "Copyright &copy; OSMART"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
